@@ -31,6 +31,6 @@ QSPI FLASH: W25Q256 32MB
 
 目前正在测试，bug情况未知，打板请谨慎。有问题可发邮件：1399109998@qq.com
 
-![botten](images\botten.png)
+![botten](images/botten.png)
 
-![top](images\top.png)
+![top](images/top.png)
