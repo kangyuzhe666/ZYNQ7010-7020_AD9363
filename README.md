@@ -5,7 +5,7 @@
 
 FPGA:ZYNQ7010/7020(ZYNQ7010和ZYNQ7020可以相互代换，如需更多硬件资源请使用ZYNQ7020)
 
-RF:AD9361/AD9363/AD9364(三款芯片可相互代换，区别在于频宽不同。其中AD9363性能更为优秀，尽量使用ABCZ结尾的芯片，区分于BBCZ)
+RF:AD9361/AD9363/AD9364(三款芯片可相互代换，区别在于频宽不同。其中AD9361性能更为优秀，尽量使用ABCZ结尾的芯片，区分于BBCZ)
 
 内存：DDR3 256M16
 
@@ -23,7 +23,7 @@ QSPI FLASH: W25Q256 32MB
 
 设计软件：Altium Designer
 
-层数：4层 （信号层[top]、power[2]、GND[3]、信号层[4]）
+层数：4层 （信号层[1]、power[2]、GND[3]、信号层[4]）
 
 工艺：嘉立创工艺
 
@@ -31,6 +31,6 @@ QSPI FLASH: W25Q256 32MB
 
 目前正在测试，bug情况未知，打板请谨慎。有问题可发邮件：1399109998@qq.com
 
-![botten](images\botten.png)
+![botten](images/botten.png)
 
-![top](images\top.png)
+![top](images/top.png)
