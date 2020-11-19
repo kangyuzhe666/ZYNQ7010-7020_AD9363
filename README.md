@@ -36,3 +36,7 @@ QSPI FLASH: W25Q256 32MB
 ![botten](images/botten.png)
 
 ![top](images/top.png)
+
+# 2020/11/19更新，测试遇到重大bug。ddr数据线组内交换没有严格参照xilinx手册，导致ddr测试无法通过，正在着手修改，不要打板，这个bug无法通过软件修复，请等待最新的设计文件。
+
+![1](images/1.JPG)
