@@ -258,6 +258,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DYIABCGI
 
+[Document14]
+DocumentPath=ZYNQ7020_AD9364_V2.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AKTKVKCW
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for ZYNQ7010_AD9363\BGA Escape Route - test.html
 DItemRevisionGUID=
