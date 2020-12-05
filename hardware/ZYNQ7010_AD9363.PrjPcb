@@ -245,6 +245,10 @@ DocumentUniqueId=DYIABCGI
 DocumentPath=Project Outputs for ZYNQ7010_AD9363\Design Rule Check - ZYNQ7010_AD9363.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project Outputs for ZYNQ7010_AD9363\Design Rule Check - ZYNQ7020_AD9364_V2.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -364,7 +368,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Lenovo M7650DNF Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
