@@ -208,23 +208,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document11]
-DocumentPath=ZYNQ7020_AD9364.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LDYBPFTT
-
-[Document12]
 DocumentPath=ZYNQ7020_AD9364_V2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -240,14 +223,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DYIABCGI
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for ZYNQ7010_AD9363\Design Rule Check - ZYNQ7010_AD9363.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for ZYNQ7010_AD9363\Design Rule Check - ZYNQ7020_AD9364_V2.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
