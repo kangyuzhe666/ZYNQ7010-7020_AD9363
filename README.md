@@ -1,6 +1,4 @@
-# ZYNQ7010/7020_AD9363
-# 目前遇到的bug，设计时为了布线方便差分对跨bank了，由于速度不是很高可能问题不大。第二个bug是用没有时钟输入功能的io接收ad9363的数据时钟。
-# 这两bug目前来说可以用软件去修复，目前不建议自己打板等第三版吧。
+# ZYNQ7010/7020_AD9363/AD9364/AD9361
 ####  基于ZYNQ+AD9363的开源SDR硬件
 
 ##### 1.硬件方案
@@ -19,13 +17,15 @@ QSPI FLASH: W25Q256 32MB
 
 ##### 2.软件资源
 
-支持Pluto-SDR固件移植、OpenWiFi(需选用ZYNQ7020 FPGA)
+支持Pluto-SDR固件移植、OpenWiFi(需选用ZYNQ7020 FPGA)、支持adi官方ZED+AD-FMCOMMS2/3/4相关固件代码
+
+软件上支持MATLAB、GNU Radio、SDR sharp等
 
 ##### 3.PCB板设计
 
 设计软件：Altium Designer
 
-层数：4层 （信号层[1]、power[2]、GND[3]、信号层[4]）
+层数：4层 （信号层[1]、GND[2]、POWER[3]、信号层[4]）
 
 工艺：嘉立创工艺
 
@@ -33,16 +33,22 @@ QSPI FLASH: W25Q256 32MB
 
 目前正在测试，bug情况未知，打板请谨慎。有问题可发邮件：1399109998@qq.com
 
+第一个本版（硬件设计有问题已废弃）
+
 ![botten](images/botten.png)
 
 ![top](images/top.png)
 
-# 2020/11/19更新，测试遇到重大bug。ddr数据线组内交换没有严格参照xilinx手册，导致ddr测试无法通过，正在着手修改，不要打板，这个bug无法通过软件修复，请等待最新的设计文件。
-
 ![1](images/1.JPG)
 
-# 2020/12/07更新，重新设计DDR走线，ad9363部分增加一个收发通道,未测试。
+第二个本版（更改ddr走线，lvds走线、增加收发模组为2r2t）目前正在测试这个版本
 
-![IMG_7890](images/IMG_7890.PNG)
+已经对这个版本进行了pluto固件的适配
 
-![IMG_7892](images/IMG_7892.PNG)
+![1](images/1.png)
+
+![2](images/2.png)
+
+![3](images/3.png)
+
+
