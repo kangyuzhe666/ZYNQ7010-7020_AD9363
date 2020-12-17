@@ -33,14 +33,6 @@ QSPI FLASH: W25Q256 32MB
 
 目前正在测试，bug情况未知，打板请谨慎。有问题可发邮件：1399109998@qq.com
 
-第一个本版（硬件设计有问题已废弃）
-
-![botten](images/botten.png)
-
-![top](images/top.png)
-
-![1](images/1.JPG)
-
 第二个本版（更改ddr走线，lvds走线、增加收发模组为2r2t）目前正在测试这个版本
 
 已经对这个版本进行了pluto固件的适配
@@ -51,4 +43,8 @@ QSPI FLASH: W25Q256 32MB
 
 ![3](images/3.png)
 
+![cpf](images/cpf.JPG)
 
+![cpz](images/cpz.JPG)
+
+2020/12/17更新，ps系统测试正常，网路可以在1000M稳定运行。
