@@ -37,16 +37,10 @@ QSPI FLASH: W25Q256 32MB
 
 已经对这个版本进行了pluto固件的适配
 
-![1](images/1.png)
-
 ![2](images/2.png)
 
-![3](images/3.png)
-
-![cpf](images/cpf.JPG)
-
-![cpz](images/cpz.JPG)
+![cpz](images/wq.JPG)
 
 2020/12/17更新，ps系统测试正常，网路可以在1000M稳定运行。
 
-![eth](images/eth.png)
+![eth](images/500m.JPG)
