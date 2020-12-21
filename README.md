@@ -44,3 +44,10 @@ QSPI FLASH: W25Q256 32MB
 2020/12/17更新，ps系统测试正常，网路可以在1000M稳定运行。
 
 ![eth](images/500m.JPG)
+
+<img src="images/csh.png" alt="eth" style="zoom:50%;" />
+
+ad9363初始化正常
+
+
+
