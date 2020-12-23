@@ -45,9 +45,11 @@ QSPI FLASH: W25Q256 32MB
 
 ![eth](images/500m.JPG)
 
-<img src="images/csh.png" alt="eth" style="zoom:50%;" />
-
 ad9363初始化正常
 
+<img src="images/csh.png" alt="eth" style="zoom:50%;" />
 
+pluto-uboot移植成功
+
+![eth](images/pluto.png)
 
