@@ -53,3 +53,4 @@ pluto-uboot移植成功
 
 ![eth](images/pluto.png)
 
+![eth](images/pluto-system.png)
