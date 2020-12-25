@@ -54,3 +54,11 @@ pluto-uboot移植成功
 ![eth](images/pluto.png)
 
 ![eth](images/pluto-system.png)
+
+pluto固件工作正常
+
+![](images/IMG_8016.PNG)
+
+![IMG_8017](images/IMG_8017.PNG)
+
+![IMG_8018](images/IMG_8018.JPG)
