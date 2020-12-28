@@ -1,6 +1,8 @@
 # ZYNQ7010/7020_AD9363/AD9364/AD9361
 ####  基于ZYNQ+AD9363的开源SDR硬件
 
+项目介绍视频：https://www.bilibili.com/video/BV1Di4y1c7ZW
+
 ##### 1.硬件方案
 
 FPGA:ZYNQ7010/7020(ZYNQ7010和ZYNQ7020可以相互代换，如需更多硬件资源请使用ZYNQ7020)
