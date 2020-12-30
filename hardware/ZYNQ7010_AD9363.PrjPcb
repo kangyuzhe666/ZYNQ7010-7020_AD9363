@@ -174,23 +174,6 @@ GenerateClassCluster=0
 DocumentUniqueId=FQXYOGHR
 
 [Document9]
-DocumentPath=ZYNQ7010_AD9363.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HEPPROCK
-
-[Document10]
 DocumentPath=ZYNQ7010_AD9363.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=ZYNQ7020_AD9364_V2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -223,6 +206,27 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DYIABCGI
+
+[Document11]
+DocumentPath=PcbLib1.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DKJQAAPG
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ZYNQ7010_AD9363\Design Rule Check - ZYNQ7020_AD9364_V2.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
