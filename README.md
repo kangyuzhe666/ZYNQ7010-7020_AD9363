@@ -39,7 +39,7 @@ QSPI FLASH: W25Q256 32MB
 
 已经对这个版本进行了pluto固件的适配
 
-![2](images/2.png)
+![2](images/grade.png)
 
 ![cpz](images/wq.JPG)
 
