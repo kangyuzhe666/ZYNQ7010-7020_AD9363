@@ -35,13 +35,13 @@ QSPI FLASH: W25Q256 32MB
 
 阻抗：不支持
 
-最新本版（更改ddr走线，lvds走线、增加收发模组为2r2t）目前正在测试这个版本
-
-已经对这个版本进行了pluto固件的适配
+阻抗版本将于2021年中旬测试，目前收发测试正常正在进行openwifi的移植。
 
 ![2](images/grade.png)
 
-![cpz](images/wq.JPG)
+![](images/IMG_8132.JPG)
+
+![](images/IMG_8133.JPG)
 
 2020/12/17更新，ps系统测试正常，网路可以在1000M稳定运行。
 
@@ -53,14 +53,14 @@ ad9363初始化正常
 
 pluto-uboot移植成功
 
-![eth](images/pluto.png)
-
 ![eth](images/pluto-system.png)
 
 pluto固件工作正常
 
 ![](images/IMG_8016.PNG)
 
-![IMG_8017](images/IMG_8017.PNG)
+![IMG_8017](images/iio.PNG)
 
-![IMG_8018](images/IMG_8018.JPG)
+![IMG_8018](images/IMG_8129.JPG)
+
+![IMG_8018](images/IMG_8131.JPG)
