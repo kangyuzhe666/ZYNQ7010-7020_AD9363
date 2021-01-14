@@ -59,7 +59,7 @@ pluto固件工作正常
 
 ![](images/IMG_8016.PNG)
 
-![IMG_8017](images/iio.PNG)
+![IMG_8017](images/iio.png)
 
 ad9363破解成ad9364
 
