@@ -3,7 +3,15 @@
 
 项目介绍视频：https://www.bilibili.com/video/BV1Di4y1c7ZW
 
-目前正在测试，bug情况未知，打板请谨慎。有问题可发邮件：1399109998@qq.com
+GSM信号接收测试：https://www.bilibili.com/video/BV17U4y147Pg
+
+FM接收测试：https://www.bilibili.com/video/BV13o4y1o7U2
+
+正弦波发射测试：https://www.bilibili.com/video/BV1BK411g7GA
+
+pluto-sdr固件移植工作全部完成，刷入固件无需操作系统默认就是AD9364。
+
+关于BOM成本，ZYNQ7010/ZYN17020、AD9363在使用拆机芯片的情况下成本在150-200元左右。使用全新芯片由于数量较少没有议价能力BOM成本在500元左右。
 
 ##### 1.硬件方案
 
