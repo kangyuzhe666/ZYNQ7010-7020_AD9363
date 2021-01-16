@@ -27,6 +27,14 @@ GMAC-PHY: RTL8211E-VL(RTL8211E有VB和VL两个结尾，其中VB电平为3.3V/2.5
 
 QSPI FLASH: W25Q256 32MB
 
+电源拓扑
+
+![power](images/power.png)
+
+block design
+
+![blockdesign](images/blockdesign.png)
+
 ##### 2.软件资源
 
 支持Pluto-SDR固件移植、OpenWiFi(需选用ZYNQ7020 FPGA)、支持adi官方ZED+AD-FMCOMMS2/3/4相关固件代码
