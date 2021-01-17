@@ -1,5 +1,5 @@
 # ZYNQ7010/7020_AD9363/AD9364/AD9361
-####  基于ZYNQ+AD9363的开源SDR硬件
+####  基于ZYNQ+AD936X的开源SDR硬件
 
 项目介绍视频：https://www.bilibili.com/video/BV1Di4y1c7ZW
 
@@ -13,7 +13,7 @@ pluto-sdr固件移植工作全部完成，刷入固件无需操作系统默认�
 
 关于BOM成本，ZYNQ7010/ZYN17020、AD9363在使用拆机芯片的情况下成本在150-200元左右。使用全新芯片由于数量较少没有议价能力BOM成本在500元左右。
 
-##### 1.硬件方案
+#### 1.硬件方案
 
 FPGA:ZYNQ7010/7020(ZYNQ7010和ZYNQ7020可以相互代换，如需更多硬件资源请使用ZYNQ7020)
 
@@ -35,13 +35,13 @@ block design
 
 ![blockdesign](images/blockdesign.png)
 
-##### 2.软件资源
+#### 2.软件资源
 
 支持Pluto-SDR固件移植、OpenWiFi(需选用ZYNQ7020 FPGA)、支持adi官方ZED+AD-FMCOMMS2/3/4相关固件代码
 
 软件上支持MATLAB、GNU Radio、SDR sharp等
 
-##### 3.PCB板设计
+#### 3.PCB板设计
 
 设计软件：Altium Designer
 
@@ -53,36 +53,70 @@ block design
 
 阻抗版本将于2021年中旬测试，目前收发测试正常正在进行openwifi的移植。
 
+#### 4. 不同于Pluto-SDR:
+
+- 支持CLG400封装 XC7Z010 XC7Z020
+- 支持2R2T收发模式
+- 4层PCB设计成本低
+- 支持SD卡可运行完整的Linux系统
+- 支持千兆以太网
+
+#### 5. 实物图片:
+
+PCB渲染图
+
 ![2](images/grade.png)
+
+PCBA实物图
 
 ![](images/IMG_8132.JPG)
 
+射频部分细节
+
 ![](images/IMG_8133.JPG)
 
-2020/12/17更新，ps系统测试正常，网路可以在1000M稳定运行。
+1000M以太网测试（测试环境为单臂路由）
 
 ![eth](images/500m.JPG)
 
-ad9363初始化正常
+AD9363初始化正常基于adi NO-OS测试环境
 
 <img src="images/csh.png" alt="eth" style="zoom:50%;" />
 
-pluto-uboot移植成功
+Pluto-uboot移植成功
 
 ![eth](images/pluto-system.png)
 
-pluto固件工作正常
+Pluto固件工作正常
 
 ![](images/IMG_8016.PNG)
 
+950MHZ GSM信号接收测试
+
 ![IMG_8017](images/iio.png)
 
-ad9363破解成ad9364
+AD9363破解成AD9364接收FM信号 
 
 ![pj](images/pj.png)
 
+两块PCBA交互测试
+
 ![IMG_8018](images/IMG_8129.JPG)
+
+两块PCBA可以堆叠通过千兆交换机和路由器进行与上位机的链接
 
 ![IMG_8018](images/IMG_8131.JPG)
 
+SDR-SHARP测试
+
 ![sdrsharp](images/sdrsharp.jpg)
+
+#### 6 TO DO LIST
+
+-继续优化RF部分以达到adi官方演示板指标 
+
+-基于四层PCB的阻抗设计 -将于2021年1月至2月完成，以完成openwifi的相关移植工作 
+
+-在2021年3月设计阻抗版本 -在2021年4月对阻抗版本进行商业指标测试 
+
+-商业版将于2021年4月底推出时，它将支持adi的官方SDR固件（ADRV9364数据包），openwifi和openbts openbts等。
