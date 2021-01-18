@@ -1,23 +1,38 @@
 # ZYNQ7010/7020_AD9363/AD9364/AD9361
-####  Open source SDR hardware based on ZYNQ+AD936X
 
-Project introduction video:https://www.youtube.com/watch?v=Qk-M8yRsKvs 
 
-​                                               https://www.youtube.com/watch?v=xx4MXQSHmCM&t=153s
 
-GSM signals received test:https://www.youtube.com/watch?v=yFEpSrWW0-w
+![img](https://img.shields.io/github/issues/kangyuzhe666/ZYNQ7010-7020_AD9363.svg)
+![img](	https://img.shields.io/github/forks/kangyuzhe666/ZYNQ7010-7020_AD9363.svg)
+![img](https://img.shields.io/github/stars/kangyuzhe666/ZYNQ7010-7020_AD9363.svg)
+![img](https://img.shields.io/github/license/kangyuzhe666/ZYNQ7010-7020_AD9363.svg)
+[![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://github.com/996icu/996.ICU)
 
-FM signal received test:https://www.youtube.com/watch?v=ASb7dLIEmfY
+[中文](./README_CN.md) 
+##  Open source SDR hardware based on ZYNQ+AD936X
 
-Sine wave signal transmission test:https://www.youtube.com/watch?v=bfs_GfULIoA&t=55s
+Project introduction video:
+- https://www.youtube.com/watch?v=Qk-M8yRsKvs 
 
-Local loopback signal test:https://www.youtube.com/watch?v=JOjsKboq0xA
+- https://www.youtube.com/watch?v=xx4MXQSHmCM&t=153s
 
-The pluto-sdr firmware transplantation work is all completed, flashing the firmware without hacking the system, the default is AD9364.
+GSM signals receiver test:
+- https://www.youtube.com/watch?v=yFEpSrWW0-w
 
-Regarding the BOM cost, ZYNQ7010/ZYN17020 and AD9363 cost about 150-200 RMB when using the disassembled chip. The use of brand-new chips does not have bargaining power due to the small number of BOM costs around 1,000 RMB.
+FM signal receiver test:
+- https://www.youtube.com/watch?v=ASb7dLIEmfY
 
-##### 1. Hardware solution
+Sine wave signal transmission test:
+- https://www.youtube.com/watch?v=bfs_GfULIoA&t=55s
+
+Loopback signal test:
+- https://www.youtube.com/watch?v=JOjsKboq0xA
+
+The pluto-sdr firmware transplantation work is all done, flashing the firmware without hacking the system, the default is AD9364.
+
+Regarding to the BOM cost, ZYNQ7010/ZYN17020 and AD9363 cost about 150-200 RMB with the disassembled chip. The use of brand-new chips does not have bargaining power due to the small number of BOM costs around 1,000 RMB.
+
+#### 1. Hardware solution
 
 FPGA: ZYNQ7010/7020 (ZYNQ7010 and ZYNQ7020 can be replaced with each other, if you need more hardware resources, please use ZYNQ7020)
 
@@ -43,7 +58,7 @@ block design
 
 Support Pluto-SDR firmware transplantation, OpenWiFi (ZYNQ7020 FPGA required), support adi official ZED+AD-FMCOMMS2/3/4 related firmware code
 
-##### 3. PCB board design
+#### 3. PCB board design
 
 Design software:  Altium Designer Kicad
 
@@ -55,7 +70,7 @@ Impedance: not supported
 
 The impedance version will be tested in March 2021, and the openwifi port is currently undergoing normal transceiver tests.
 
-##### 4. Differences compared to ADALM-PLUTO:
+#### 4. Differences compared to ADALM-PLUTO:
 
 - Support for Zynq-7020 and Zynq-7010 in 400pin BGA package
 - Support 2R2T transceiver mode
@@ -63,7 +78,7 @@ The impedance version will be tested in March 2021, and the openwifi port is cur
 - SD slot for running real Linux distros
 - Support Gigabit Ethernet
 
-##### 5. Project display:
+#### 5. Project display:
 
 This is the PCB rendering
 
