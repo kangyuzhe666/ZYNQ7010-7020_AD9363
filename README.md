@@ -1,78 +1,124 @@
 # ZYNQ7010/7020_AD9363/AD9364/AD9361
-####  基于ZYNQ+AD9363的开源SDR硬件
+####  Open source SDR hardware based on ZYNQ+AD936X
 
-项目介绍视频：https://www.bilibili.com/video/BV1Di4y1c7ZW
+Project introduction video:https://www.youtube.com/watch?v=Qk-M8yRsKvs 
 
-GSM信号接收测试：https://www.bilibili.com/video/BV17U4y147Pg
+​                                               https://www.youtube.com/watch?v=xx4MXQSHmCM&t=153s
 
-FM接收测试：https://www.bilibili.com/video/BV13o4y1o7U2
+GSM signals received test:https://www.youtube.com/watch?v=yFEpSrWW0-w
 
-正弦波发射测试：https://www.bilibili.com/video/BV1BK411g7GA
+FM signal received test:https://www.youtube.com/watch?v=ASb7dLIEmfY
 
-pluto-sdr固件移植工作全部完成，刷入固件无需操作系统默认就是AD9364。
+Sine wave signal transmission test:https://www.youtube.com/watch?v=bfs_GfULIoA&t=55s
 
-关于BOM成本，ZYNQ7010/ZYN17020、AD9363在使用拆机芯片的情况下成本在150-200元左右。使用全新芯片由于数量较少没有议价能力BOM成本在500元左右。
+Local loopback signal test:https://www.youtube.com/watch?v=JOjsKboq0xA
 
-##### 1.硬件方案
+The pluto-sdr firmware transplantation work is all completed, flashing the firmware without hacking the system, the default is AD9364.
 
-FPGA:ZYNQ7010/7020(ZYNQ7010和ZYNQ7020可以相互代换，如需更多硬件资源请使用ZYNQ7020)
+Regarding the BOM cost, ZYNQ7010/ZYN17020 and AD9363 cost about 150-200 RMB when using the disassembled chip. The use of brand-new chips does not have bargaining power due to the small number of BOM costs around 1,000 RMB.
 
-RF:AD9361/AD9363/AD9364(三款芯片可相互代换，区别在于频宽不同。其中AD9361性能更为优秀，尽量使用ABCZ结尾的芯片，区分于BBCZ)
+##### 1. Hardware solution
 
-内存：DDR3 256M16
+FPGA: ZYNQ7010/7020 (ZYNQ7010 and ZYNQ7020 can be replaced with each other, if you need more hardware resources, please use ZYNQ7020)
+
+RF: AD9361/AD9363/AD9364 (the three chips can be replaced with each other, the difference lies in the bandwidth. Among them, AD9361 has better performance, try to use the ABCZ ending chip, which is different from BBCZ)
+
+RAM Memory: DDR3 256M16
 
 USB-PHY: USB3320C
 
-GMAC-PHY: RTL8211E-VL(RTL8211E有VB和VL两个结尾，其中VB电平为3.3V/2.5V,VL为1.8V)
+GMAC-PHY: RTL8211E-VL (RTL8211E has two endings, VB and VL, where VB level is 3.3V/2.5V, VL is 1.8V)
 
 QSPI FLASH: W25Q256 32MB
 
-##### 2.软件资源
+Power supply topology diagram
 
-支持Pluto-SDR固件移植、OpenWiFi(需选用ZYNQ7020 FPGA)、支持adi官方ZED+AD-FMCOMMS2/3/4相关固件代码
+![power](images/power.png)
 
-软件上支持MATLAB、GNU Radio、SDR sharp等
+block design
 
-##### 3.PCB板设计
+![blockdesign](images/blockdesign.png)
 
-设计软件：Altium Designer
+##### 2. Software resources
 
-层数：4层 （信号层[1]、GND[2]、POWER[3]、信号层[4]）
+Support Pluto-SDR firmware transplantation, OpenWiFi (ZYNQ7020 FPGA required), support adi official ZED+AD-FMCOMMS2/3/4 related firmware code
 
-工艺：嘉立创工艺
+##### 3. PCB board design
 
-阻抗：不支持
+Design software:  Altium Designer Kicad
 
-阻抗版本将于2021年中旬测试，目前收发测试正常正在进行openwifi的移植。
+Number of layers: 4 layers （signal layer[1]、GND[2]、POWER[3]、signal layer[4]）
+
+Craft: JLC PCB Craft
+
+Impedance: not supported
+
+The impedance version will be tested in March 2021, and the openwifi port is currently undergoing normal transceiver tests.
+
+##### 4. Differences compared to ADALM-PLUTO:
+
+- Support for Zynq-7020 and Zynq-7010 in 400pin BGA package
+- Support 2R2T transceiver mode
+- 4 layer board to reduce cost
+- SD slot for running real Linux distros
+- Support Gigabit Ethernet
+
+##### 5. Project display:
+
+This is the PCB rendering
 
 ![2](images/grade.png)
 
+This is the physical picture of the PCB
+
 ![](images/IMG_8132.JPG)
+
+This is the details of the PCB RF part
 
 ![](images/IMG_8133.JPG)
 
-2020/12/17更新，ps系统测试正常，网路可以在1000M稳定运行。
+Ethernet can work stably at 1000M (using single-arm routing for testing in the figure)
 
 ![eth](images/500m.JPG)
 
-ad9363初始化正常
+AD9363 initializes the normal graph using adi no-os test environment
 
 <img src="images/csh.png" alt="eth" style="zoom:50%;" />
 
-pluto-uboot移植成功
+Pluto-uboot transplanted successfully
 
 ![eth](images/pluto-system.png)
 
-pluto固件工作正常
+Pluto firmware works fine
 
 ![](images/IMG_8016.PNG)
 
-![IMG_8017](images/iio.png)
+Receive GSM signal normally
 
-ad9363破解成ad9364
+![](images/iio.png)
+
+Hack into AD9364 to receive FM signal
 
 ![pj](images/pj.png)
 
+Two PCBAs receive and send each other test
+
 ![IMG_8018](images/IMG_8129.JPG)
 
+PCBAs can be stacked on each other and connected through Gigabit switches and routers
+
 ![IMG_8018](images/IMG_8131.JPG)
+
+Support SDR-SHARP
+
+![sdrsharp](images/sdrsharp.jpg)
+
+##### 6.TO DO LIST
+
+- Continue to optimize the RF part to reach the adi official demo board indicators
+- Impedance design based on four-layer pcb
+- To be completed in January-February of 2021, to complete the relevant transplantation work of openwifi
+- Design the impedance version in March 2021
+- Conduct commercial index tests on the impedance version in April 2021
+- When the commercial version is launched at the end of April 2021, it will support adi's official SDR firmware (ADRV9364 packet), openwifi, and openbts openbts, etc.
+

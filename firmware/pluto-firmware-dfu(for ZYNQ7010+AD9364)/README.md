@@ -1,6 +1,4 @@
-硬件焊接好以后使用xilinx sdk进行烧录 先烧录BOOT.bin
-
-进入dfu模式使用dfu-util烧录固件
+After the hardware is soldered, use xilinx sdk to burn, burn BOOT.bin first Enter dfu mode and use dfu-util to burn the firmware
 
 sudo dfu-util -D boot.dfu -a boot.dfu
 
