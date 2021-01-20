@@ -38,6 +38,12 @@ FPGA: ZYNQ7010/7020 (ZYNQ7010 and ZYNQ7020 can be replaced with each other, if y
 
 RF: AD9361/AD9363/AD9364 (the three chips can be replaced with each other, the difference lies in the bandwidth. Among them, AD9361 has better performance, try to use the ABCZ ending chip, which is different from BBCZ)
 
+https://ez.analog.com/wide-band-rf-transceivers/design-support/f/q-a/80027/what-is-difference-of-ad9363-abcz-and-bbcz?ReplyOffsetId=179002&ReplyOffsetDirection=Next&ReplySortBy=CreatedDate&ReplySortOrder=Ascending&pifragment-7309=2
+
+AD9363ABCZ Band: 325 MHz to 3.8 GHz
+
+AD9363BBCZ Band: 650 MHz to 2.7 GHz
+
 RAM Memory: DDR3 256M16
 
 USB-PHY: USB3320C

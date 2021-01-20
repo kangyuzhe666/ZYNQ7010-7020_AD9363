@@ -19,6 +19,12 @@ FPGA:ZYNQ7010/7020(ZYNQ7010和ZYNQ7020可以相互代换，如需更多硬件资
 
 RF:AD9361/AD9363/AD9364(三款芯片可相互代换，区别在于频宽不同。其中AD9361性能更为优秀，尽量使用ABCZ结尾的芯片，区分于BBCZ)
 
+https://ez.analog.com/wide-band-rf-transceivers/design-support/f/q-a/80027/what-is-difference-of-ad9363-abcz-and-bbcz?ReplyOffsetId=179002&ReplyOffsetDirection=Next&ReplySortBy=CreatedDate&ReplySortOrder=Ascending&pifragment-7309=2
+
+AD9363ABCZ Band: 325 MHz to 3.8 GHz
+
+AD9363BBCZ Band: 650 MHz to 2.7 GHz
+
 内存：DDR3 256M16
 
 USB-PHY: USB3320C
