@@ -1,1 +1,0 @@
-After the hardware is soldered, use xilinx sdk to burn. First burn BOOT.bin, and then burn uImage.itb.bin with the offset address 0x200000.
