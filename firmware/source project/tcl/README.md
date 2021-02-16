@@ -1,0 +1,1 @@
+Compile: source system_project Based on the AD9363 no-os test project built by vivado 2019.1, please make sure to download and compile the necessary components of adi-hdl.
