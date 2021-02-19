@@ -1,4 +1,6 @@
 # ZYNQ7010/7020_AD9363/AD9364/AD9361
+## 初步开发工作已完成，产品进入试产阶段，有关成品购买事宜请联系邮箱：1399109998@qq.com
+
 ####  基于ZYNQ+AD936X的开源SDR硬件
 
 项目介绍视频：https://www.bilibili.com/video/BV1Di4y1c7ZW
