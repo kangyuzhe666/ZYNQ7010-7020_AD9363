@@ -11,9 +11,20 @@
 [中文](./README_CN.md) 
 ##  Open source SDR hardware based on ZYNQ+AD936X
 
-## The preliminary development work has been completed and the product has entered the trial production stage. Please contact the email address: 1399109998@qq.com for the purchase of finished products.
+## The preliminary development work has been completed and the product has entered the trial production stage. Please contact the email address: 1399109998@qq.com for finished products.
+
+new version 2021.3.22 add pa、lna、32bit ddr3 1gb
+
+
+
+![a82](images/a82.PNG)
+
+![a83](images/a83.PNG)
+
+![a81](images/a81.PNG)
 
 Project introduction video:
+
 - https://www.youtube.com/watch?v=Qk-M8yRsKvs 
 
 - https://www.youtube.com/watch?v=xx4MXQSHmCM&t=153s
