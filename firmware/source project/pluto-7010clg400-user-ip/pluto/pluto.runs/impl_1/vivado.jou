@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Dec  7 20:03:03 2020
+# Process ID: 129447
+# Current directory: /home/kyz/hdl-2019_r1/projects/pluto/pluto.runs/impl_1
+# Command line: vivado -log system_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_top.tcl -notrace
+# Log file: /home/kyz/hdl-2019_r1/projects/pluto/pluto.runs/impl_1/system_top.vdi
+# Journal file: /home/kyz/hdl-2019_r1/projects/pluto/pluto.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source system_top.tcl -notrace

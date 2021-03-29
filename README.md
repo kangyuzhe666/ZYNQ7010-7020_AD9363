@@ -1,29 +1,71 @@
 # ZYNQ7010/7020_AD9363/AD9364/AD9361
+<<<<<<< HEAD
 ![qq](images/qq.PNG)
 
 ####  Open source SDR hardware based on ZYNQ+AD936X
+=======
+>>>>>>> ac6507f2fe1946b64a4697f9ff1226f25c21065f
 
-Project introduction video:https://www.youtube.com/watch?v=Qk-M8yRsKvs 
 
-​                                               https://www.youtube.com/watch?v=xx4MXQSHmCM&t=153s
 
-GSM signals received test:https://www.youtube.com/watch?v=yFEpSrWW0-w
+![img](https://img.shields.io/github/issues/kangyuzhe666/ZYNQ7010-7020_AD9363.svg)
+![img](	https://img.shields.io/github/forks/kangyuzhe666/ZYNQ7010-7020_AD9363.svg)
+![img](https://img.shields.io/github/stars/kangyuzhe666/ZYNQ7010-7020_AD9363.svg)
+![img](https://img.shields.io/github/license/kangyuzhe666/ZYNQ7010-7020_AD9363.svg)
+[![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://github.com/996icu/996.ICU)
 
-FM signal received test:https://www.youtube.com/watch?v=ASb7dLIEmfY
+[中文](./README_CN.md) 
+##  Open source SDR hardware based on ZYNQ+AD936X
 
-Sine wave signal transmission test:https://www.youtube.com/watch?v=bfs_GfULIoA&t=55s
+<<<<<<< HEAD
+## The preliminary development work has been completed and the product has entered the trial production stage. Please contact the email address: 1399109998@qq.com for finished products.
 
-Local loopback signal test:https://www.youtube.com/watch?v=JOjsKboq0xA
+new version 2021.3.22 add pa、lna、32bit ddr3 1gb
 
-The pluto-sdr firmware transplantation work is all completed, flashing the firmware without hacking the system, the default is AD9364.
 
-Regarding the BOM cost, ZYNQ7010/ZYN17020 and AD9363 cost about 150-200 RMB when using the disassembled chip. The use of brand-new chips does not have bargaining power due to the small number of BOM costs around 1,000 RMB.
 
-##### 1. Hardware solution
+![a82](images/a82.PNG)
+
+![a83](images/a83.PNG)
+
+![a81](images/a81.PNG)
+=======
+## The preliminary development work has been completed and the product has entered the trial production stage. Please contact the email address: 1399109998@qq.com for the finished products.
+>>>>>>> d6aa36bef5f305c4cdff866e0592ac313a4012c5
+
+Project introduction video:
+
+- https://www.youtube.com/watch?v=Qk-M8yRsKvs 
+
+- https://www.youtube.com/watch?v=xx4MXQSHmCM&t=153s
+
+GSM signals receiver test:
+- https://www.youtube.com/watch?v=yFEpSrWW0-w
+
+FM signal receiver test:
+- https://www.youtube.com/watch?v=ASb7dLIEmfY
+
+Sine wave signal transmission test:
+- https://www.youtube.com/watch?v=bfs_GfULIoA&t=55s
+
+Loopback signal test:
+- https://www.youtube.com/watch?v=JOjsKboq0xA
+
+The pluto-sdr firmware transplantation work is all done, flashing the firmware without hacking the system, the default is AD9364.
+
+Regarding to the BOM cost, ZYNQ7010/ZYN17020 and AD9363 cost about 150-200 RMB with the disassembled chip. The use of brand-new chips does not have bargaining power due to the small number of BOM costs around 1,000 RMB.
+
+#### 1. Hardware solution
 
 FPGA: ZYNQ7010/7020 (ZYNQ7010 and ZYNQ7020 can be replaced with each other, if you need more hardware resources, please use ZYNQ7020)
 
 RF: AD9361/AD9363/AD9364 (the three chips can be replaced with each other, the difference lies in the bandwidth. Among them, AD9361 has better performance, try to use the ABCZ ending chip, which is different from BBCZ)
+
+https://ez.analog.com/wide-band-rf-transceivers/design-support/f/q-a/80027/what-is-difference-of-ad9363-abcz-and-bbcz?ReplyOffsetId=179002&ReplyOffsetDirection=Next&ReplySortBy=CreatedDate&ReplySortOrder=Ascending&pifragment-7309=2
+
+AD9363ABCZ Band: 325 MHz to 3.8 GHz
+
+AD9363BBCZ Band: 650 MHz to 2.7 GHz
 
 RAM Memory: DDR3 256M16
 
@@ -45,7 +87,7 @@ block design
 
 Support Pluto-SDR firmware transplantation, OpenWiFi (ZYNQ7020 FPGA required), support adi official ZED+AD-FMCOMMS2/3/4 related firmware code
 
-##### 3. PCB board design
+#### 3. PCB board design
 
 Design software:  Altium Designer Kicad
 
@@ -57,7 +99,7 @@ Impedance: not supported
 
 The impedance version will be tested in March 2021, and the openwifi port is currently undergoing normal transceiver tests.
 
-##### 4. Differences compared to ADALM-PLUTO:
+#### 4. Differences compared to ADALM-PLUTO:
 
 - Support for Zynq-7020 and Zynq-7010 in 400pin BGA package
 - Support 2R2T transceiver mode
@@ -65,7 +107,7 @@ The impedance version will be tested in March 2021, and the openwifi port is cur
 - SD slot for running real Linux distros
 - Support Gigabit Ethernet
 
-##### 5. Project display:
+#### 5. Project display:
 
 This is the PCB rendering
 
