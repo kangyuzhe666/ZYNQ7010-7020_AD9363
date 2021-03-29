@@ -1,4 +1,6 @@
 # ZYNQ7010/7020_AD9363/AD9364/AD9361
+![qq](images/qq.PNG)
+
 ####  基于ZYNQ+AD936X的开源SDR硬件
 
 项目介绍视频：https://www.bilibili.com/video/BV1Di4y1c7ZW

@@ -1,4 +1,6 @@
 # ZYNQ7010/7020_AD9363/AD9364/AD9361
+![qq](images/qq.PNG)
+
 ####  Open source SDR hardware based on ZYNQ+AD936X
 
 Project introduction video:https://www.youtube.com/watch?v=Qk-M8yRsKvs 
