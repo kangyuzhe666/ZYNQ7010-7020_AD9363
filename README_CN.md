@@ -1,19 +1,13 @@
 # ZYNQ7010/7020_AD9363/AD9364/AD9361
-<<<<<<< HEAD
 ![qq](images/qq.PNG)
-=======
-## 初步开发工作已完成，产品进入试产阶段，有关成品购买事宜请联系邮箱：1399109998@qq.com
-
-new version 2021.3.22 add pa、lna、32bit ddr3 1gb
-
-
-
-![a82](C:/Users/13991/Documents/GitHub/ZYNQ7010-7020_AD9363/images/a82.PNG)
-
-![a83](C:/Users/13991/Documents/GitHub/ZYNQ7010-7020_AD9363/images/a83.PNG)
-
-![a81](C:/Users/13991/Documents/GitHub/ZYNQ7010-7020_AD9363/images/a81.PNG)
->>>>>>> ac6507f2fe1946b64a4697f9ff1226f25c21065f
+## 初步开发工作已完成，产品进入试产阶段，有关成品购买事宜请联系邮箱：1399109998@qq.com 
+## 2022-09-13更新正式支持openwifi
+![a81](images/IMG_2371.JPG)
+![a83](images/IMG_2753.JPG)
+![a82](images/IMG_2754.JPG)
+![a81](images/IMG_2747.JPG)
+## 2r2t
+![a81](images/IMG_2765.JPG)
 
 ####  基于ZYNQ+AD936X的开源SDR硬件
 

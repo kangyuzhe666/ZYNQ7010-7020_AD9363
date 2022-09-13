@@ -1,13 +1,6 @@
 # ZYNQ7010/7020_AD9363/AD9364/AD9361
-<<<<<<< HEAD
-![qq](images/qq.PNG)
 
 ####  Open source SDR hardware based on ZYNQ+AD936X
-=======
->>>>>>> ac6507f2fe1946b64a4697f9ff1226f25c21065f
-
-
-
 ![img](https://img.shields.io/github/issues/kangyuzhe666/ZYNQ7010-7020_AD9363.svg)
 ![img](	https://img.shields.io/github/forks/kangyuzhe666/ZYNQ7010-7020_AD9363.svg)
 ![img](https://img.shields.io/github/stars/kangyuzhe666/ZYNQ7010-7020_AD9363.svg)
@@ -17,21 +10,17 @@
 [中文](./README_CN.md) 
 ##  Open source SDR hardware based on ZYNQ+AD936X
 
-<<<<<<< HEAD
 ## The preliminary development work has been completed and the product has entered the trial production stage. Please contact the email address: 1399109998@qq.com for finished products.
+2022-09-13 update
+![a83](images/IMG_2753.JPG)
+![a82](images/IMG_2754.JPG)
+![a81](images/IMG_2747.JPG)
 
-new version 2021.3.22 add pa、lna、32bit ddr3 1gb
+## formal support openwifi
+![a81](images/IMG_2371.JPG)
 
-
-
-![a82](images/a82.PNG)
-
-![a83](images/a83.PNG)
-
-![a81](images/a81.PNG)
-=======
-## The preliminary development work has been completed and the product has entered the trial production stage. Please contact the email address: 1399109998@qq.com for the finished products.
->>>>>>> d6aa36bef5f305c4cdff866e0592ac313a4012c5
+openwifi test video
+- https://www.bilibili.com/video/BV1hB4y1k7dm?spm_id_from=333.999.list.card_archive.click
 
 Project introduction video:
 
@@ -53,7 +42,6 @@ Loopback signal test:
 
 The pluto-sdr firmware transplantation work is all done, flashing the firmware without hacking the system, the default is AD9364.
 
-Regarding to the BOM cost, ZYNQ7010/ZYN17020 and AD9363 cost about 150-200 RMB with the disassembled chip. The use of brand-new chips does not have bargaining power due to the small number of BOM costs around 1,000 RMB.
 
 #### 1. Hardware solution
 
